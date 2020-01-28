@@ -1,0 +1,15 @@
+// button.base
+//
+// base classes for the button module.
+//
+// Markup: tests/fixtures/button.hbs
+//
+// Styleguide modules.button
+.button {
+  //@include border-radius( 18px );
+  //@include adjust-font-size-to( 15px );
+  padding-bottom: 0.4rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 0.4rem;
+}

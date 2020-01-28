@@ -1,0 +1,11 @@
+@font-face {
+  font-family: 'SF Pro Display Thin';
+  src: url('../../fonts/sf-pro-display-thin.eot'); /* IE9 Compat Modes */
+  src: url('../../fonts/sf-pro-display-thin.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../../fonts/sf-pro-display-thin.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../../fonts/sf-pro-display-thin.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../../fonts/sf-pro-display-thin.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../../fonts/sf-pro-display-thin.svg#sf_pro_displaythin') format('svg'); /* Legacy iOS */
+}
+
+$base-font-family: 'SF Pro Display Thin', Arial, Hevetica, sans-serif;

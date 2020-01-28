@@ -1,0 +1,33 @@
+.footer {
+
+}
+
+.footer-l {
+  //@include clearfix();
+  border-style: solid;
+  border-width: 1px;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+  width: 100%;
+  > * {
+    //@include inline-block();
+    margin-right: -4px;
+    vertical-align: top;
+  }
+}
+
+.footer-l-1 {
+  width: 25%
+}
+
+.footer-l-2 {
+  width: 50%;
+}
+
+.footer-l-3 {
+  width: 25%;
+}
+
+.#{$prefix}footer-small {
+  color: green;
+}

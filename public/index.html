@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>vBoilerplate</title>
+    <link rel="stylesheet" type="text/css" href="/css/styles.css">
+  </head>
+  <body>
+    <main class="briza-main-l">
+      <div class="briza-main-l-1">
+        <header class="briza-header">
+          <h1 class="briza-header-heading">Briza Questions</h1>
+        </header>
+      </div>
+      <div class="briza-main-l-2" id="briza-app">
+        <form class="briza-form" action="">
+          <fieldset>
+            <label :for="results[0].questionId" class="briza-question-title">{{ results[0].question }}</label>
+            <input type="text" :name="results[0].questionId" :id="results[0].questionId" :minlength="results[0].minLength"
+              :maxlength="results[0].maxLength">
+          </fieldset>
+          <fieldset>
+           <label :for="results[1].questionId">{{ results[1].question }}</label>
+           <select :name="results[1].questionId" :id="results[1].questionId"></select>
+          </fieldset>
+          <fieldset>
+            <p>{{ results[2].question }}</p>
+            <input type="radio" name="business" id="" value="">
+            <label for="">Accounting</label>
+            <input type="radio" name="business" id="" value="">
+            <label for="">Software Developer</label>
+            <input type="radio" name="business" id="" value="">
+            <label for="">Landscaping</label>
+          </fieldset>
+          <fieldset>
+            <p>{{ results[3].question }}</p>
+            <input type="radio" name="contracts" id="" value="">
+            <label for="">Yes</label>
+            <input type="radio" name="contracts" id="" value="">
+            <label for="">No</label>
+          </fieldset>
+        </form>
+      </div>
+      <div class="briza-main-l-3">
+        <footer class="briza-footer">
+          <div class="briza-footer-l">
+            <div class="briza-footer-l-1">
+
+            </div>
+            <div class="briza-footer-l-2">
+              <small class="briza-footer-small">Built by iLoyola</small>
+            </div>
+            <div class="briza-footer-l-3">
+
+            </div>
+          </div>
+        </footer>
+      </div>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script src="./js/bundle.js"></script>
+  </body>
+</html>

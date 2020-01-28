@@ -1,0 +1,16 @@
+{
+  "businesses": [
+    {
+      "name": "Accounting",
+      "id": "1"
+    },
+    {
+      "name": "Software Development",
+      "id": "2"
+    },
+    {
+      "name": "Landscaping",
+      "id": "3"
+    }
+  ]
+}

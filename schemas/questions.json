@@ -1,0 +1,31 @@
+{
+	"questions": [
+		{
+			"questionName": "1",
+			"questionId": "1",
+			"question": "What is the name of your business?",
+			"minLength": "1",
+			"maxLength": "2000",
+			"required": true
+		},
+		{
+			"questionName": "2",
+			"questionId": "2",
+			"question": "In which U.S. state does your business operate?",
+			"required": true
+		},
+		{
+			"questionName": "3",
+			"questionId": "3",
+			"question": "What is your primary business?",
+			"required": true
+		},
+		{
+			"questionName": "4",
+			"questionId": "4",
+			"question": "Do you always use contracts when engaging with your clients?",
+			"useContracts": null,
+			"required": false
+		}
+	]
+}

@@ -1,0 +1,26 @@
+.header {
+
+}
+
+.header-l {
+
+}
+
+.header-l-1 {
+  //@include adjust-font-size-to( 14px );
+  @media all and ( min-width: 512px ) {
+    //@include adjust-font-size-to( 16px );
+  }
+}
+
+.header-l-2 {
+
+}
+
+.header-l-3 {
+
+}
+
+.header-l-4 {
+
+}

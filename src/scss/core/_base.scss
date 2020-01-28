@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  //font-size: $base-font-size;
+  height: 100%;
+  //line-height: $base-line-height;
+}
+
+body {
+  //@include establish-baseline();
+  background-color: $white-white;
+  color: $black-black;
+  font-family: $base-font-family;
+  //line-height: $base-line-height;
+  height: 100%;
+}
+
+legend {
+  //@include squish-text;
+}
+
+fieldset {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: $grey-iron;
+  text-decoration: none;
+  &:hover {
+    color: $blue-manatee;
+  }
+}
